@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: b3fe7335bc45c3243b45333b48dfdcaa
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cloth
+    100002: eye_left
+    100004: eye_right
+    100006: jaw01
+    100008: jaw_tip01
+    100010: lower_teeth
+    100012: tongue
+    100014: //RootNode
+    100016: troll01_Head
+    100018: troll01_Hips
+    100020: troll01_LeftArm
+    100022: troll01_LeftFoot
+    100024: troll01_LeftFootMiddle1
+    100026: troll01_LeftFootMiddle2
+    100028: troll01_LeftForeArm
+    100030: troll01_LeftHand
+    100032: troll01_LeftHandIndex1
+    100034: troll01_LeftHandIndex2
+    100036: troll01_LeftHandIndex3
+    100038: troll01_LeftHandIndex4
+    100040: troll01_LeftHandMiddle1
+    100042: troll01_LeftHandMiddle2
+    100044: troll01_LeftHandMiddle3
+    100046: troll01_LeftHandMiddle4
+    100048: troll01_LeftHandRing1
+    100050: troll01_LeftHandRing2
+    100052: troll01_LeftHandRing3
+    100054: troll01_LeftHandRing4
+    100056: troll01_LeftHandThumb1
+    100058: troll01_LeftHandThumb2
+    100060: troll01_LeftHandThumb3
+    100062: troll01_LeftHandThumb4
+    100064: troll01_LeftLeg
+    100066: troll01_LeftShoulder
+    100068: troll01_LeftUpLeg
+    100070: troll01_Neck
+    100072: troll01_Reference
+    100074: troll01_RightArm
+    100076: troll01_RightFoot
+    100078: troll01_RightFootMiddle1
+    100080: troll01_RightFootMiddle2
+    100082: troll01_RightForeArm
+    100084: troll01_RightHand
+    100086: troll01_RightHandIndex1
+    100088: troll01_RightHandIndex2
+    100090: troll01_RightHandIndex3
+    100092: troll01_RightHandIndex4
+    100094: troll01_RightHandMiddle1
+    100096: troll01_RightHandMiddle2
+    100098: troll01_RightHandMiddle3
+    100100: troll01_RightHandMiddle4
+    100102: troll01_RightHandRing1
+    100104: troll01_RightHandRing2
+    100106: troll01_RightHandRing3
+    100108: troll01_RightHandRing4
+    100110: troll01_RightHandThumb1
+    100112: troll01_RightHandThumb2
+    100114: troll01_RightHandThumb3
+    100116: troll01_RightHandThumb4
+    100118: troll01_RightLeg
+    100120: troll01_RightShoulder
+    100122: troll01_RightUpLeg
+    100124: troll01_Spine
+    100126: troll01_Spine1
+    100128: troll01_Spine2
+    100130: troll_body
+    100132: upper_teeth
+    400000: cloth
+    400002: eye_left
+    400004: eye_right
+    400006: jaw01
+    400008: jaw_tip01
+    400010: lower_teeth
+    400012: tongue
+    400014: //RootNode
+    400016: troll01_Head
+    400018: troll01_Hips
+    400020: troll01_LeftArm
+    400022: troll01_LeftFoot
+    400024: troll01_LeftFootMiddle1
+    400026: troll01_LeftFootMiddle2
+    400028: troll01_LeftForeArm
+    400030: troll01_LeftHand
+    400032: troll01_LeftHandIndex1
+    400034: troll01_LeftHandIndex2
+    400036: troll01_LeftHandIndex3
+    400038: troll01_LeftHandIndex4
+    400040: troll01_LeftHandMiddle1
+    400042: troll01_LeftHandMiddle2
+    400044: troll01_LeftHandMiddle3
+    400046: troll01_LeftHandMiddle4
+    400048: troll01_LeftHandRing1
+    400050: troll01_LeftHandRing2
+    400052: troll01_LeftHandRing3
+    400054: troll01_LeftHandRing4
+    400056: troll01_LeftHandThumb1
+    400058: troll01_LeftHandThumb2
+    400060: troll01_LeftHandThumb3
+    400062: troll01_LeftHandThumb4
+    400064: troll01_LeftLeg
+    400066: troll01_LeftShoulder
+    400068: troll01_LeftUpLeg
+    400070: troll01_Neck
+    400072: troll01_Reference
+    400074: troll01_RightArm
+    400076: troll01_RightFoot
+    400078: troll01_RightFootMiddle1
+    400080: troll01_RightFootMiddle2
+    400082: troll01_RightForeArm
+    400084: troll01_RightHand
+    400086: troll01_RightHandIndex1
+    400088: troll01_RightHandIndex2
+    400090: troll01_RightHandIndex3
+    400092: troll01_RightHandIndex4
+    400094: troll01_RightHandMiddle1
+    400096: troll01_RightHandMiddle2
+    400098: troll01_RightHandMiddle3
+    400100: troll01_RightHandMiddle4
+    400102: troll01_RightHandRing1
+    400104: troll01_RightHandRing2
+    400106: troll01_RightHandRing3
+    400108: troll01_RightHandRing4
+    400110: troll01_RightHandThumb1
+    400112: troll01_RightHandThumb2
+    400114: troll01_RightHandThumb3
+    400116: troll01_RightHandThumb4
+    400118: troll01_RightLeg
+    400120: troll01_RightShoulder
+    400122: troll01_RightUpLeg
+    400124: troll01_Spine
+    400126: troll01_Spine1
+    400128: troll01_Spine2
+    400130: troll_body
+    400132: upper_teeth
+    4300000: troll_body
+    4300002: lower_teeth
+    4300004: upper_teeth
+    4300006: tongue
+    4300008: eye_right
+    4300010: eye_left
+    4300012: cloth
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: cloth
+    13700002: eye_left
+    13700004: eye_right
+    13700006: lower_teeth
+    13700008: tongue
+    13700010: troll_body
+    13700012: upper_teeth
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
