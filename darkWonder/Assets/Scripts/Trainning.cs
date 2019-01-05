@@ -30,6 +30,7 @@ public class Trainning : MonoBehaviour {
                 skillOne.SetActive(true);
                 //Message.getInstance().hideMessage();
                 Message.getInstance().showMessage(" 修炼完成");
+                GameObject.FindGameObjectWithTag("Player").GetComponent<Hero>().getMagic = true;
             }
         }
     }

@@ -12,7 +12,7 @@ public class Message : MonoBehaviour {
 	void Start () {
         _instance = this;
         _instance.gameObject.SetActive(false);
-        print(_instance.gameObject.name);
+        //print(_instance.gameObject.name);
 	}
 
     public  static Message getInstance(){

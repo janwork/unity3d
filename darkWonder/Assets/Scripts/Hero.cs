@@ -8,19 +8,40 @@ public class Hero : MonoBehaviour {
 
     public float speed = 10;
 
+    public bool getMagic = false;
+
+    public float timer = 1f;
+
+    private float timerReset;
+
+    public GameObject magicPrefab;
+
+
     void Start()
     {
         controller = this.GetComponent<CharacterController>();
+
+        timerReset = timer;
 
     }
 
 	
 	// Update is called once per frame
 	void Update () {
-        
-       float h = Input.GetAxis("Horizontal");
-       float v = Input.GetAxis("Vertical");
 
-       controller.SimpleMove(new Vector3(h * speed, 0, v * speed));
+
+        controller.SimpleMove(new Vector3(Input.GetAxis("Horizontal") * speed, 0, Input.GetAxis("Vertical") * speed));
+
+
+        if (getMagic)
+        {
+            timer -= Time.deltaTime;
+            if (Input.GetKeyDown(KeyCode.Space) && timer <= 0)
+            {
+                GameObject.Instantiate(magicPrefab, transform.position, Quaternion.identity);
+                timer = timerReset;
+
+            }
+        }
 	}
 }

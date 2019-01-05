@@ -6,12 +6,15 @@ public class Troll : MonoBehaviour {
 
   
     public float speed = 5;
+    public float hp = 10f;
 
     private bool isIdle = true;
     private float timer = 2.0f;
     private Animator anim;
     private CharacterController controller;
     private float angle = 0f;
+    private float destroyTimer = 1.2f;
+    private bool startDestroyTimer = false;
 
 
 	// Use this for initialization
@@ -24,6 +27,18 @@ public class Troll : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (hp <= 0)
+        {
+             if (startDestroyTimer)
+             {
+                 destroyTimer -= Time.deltaTime;
+                 if (destroyTimer<= 0){
+                     GameObject.Destroy(this.gameObject);
+                 }
+             }
+            return;
+        }
 
         timer -= Time.deltaTime;
         if (timer <= 0)
@@ -56,6 +71,15 @@ public class Troll : MonoBehaviour {
             controller.SimpleMove(transform.forward *speed);
         }
 	}
+
+
+    public void die()
+    {
+        //GameObject.Destroy(this.gameObject);
+        anim.SetFloat("death", 1.0F);
+        startDestroyTimer = true;
+        TrollsBorn.trollCount--;
+    }
 
     public void animationToWalk()
     {
